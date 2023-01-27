@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --kazananrenk: #B9FFF8;
+}
+
+body{
+    color: #881c1c;
+    font-family: 'Sniglet', cursive;
+}
+
+h2{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.container{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #B9FFF8;
+}
+
+.game{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #881c1c;
+    font-size: 100px;
+    border: 2px solid;
+    border-radius: 3px;
+}
+
+button{
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: none;
+    background-color: #881c1c;
+    margin-top: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 600;
+}
